@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_13_number_1</string>
+    <string name="titleTextViewMainTV_Text">Базовые упражнения физкультурника</string>
+    <string name="sloganMainTV_Text">Спорт – это здоровье, воля и мужество!</string>
+    <string name="startTrainingSessionBT_Text">Переход к тренировке</string>
+
+    <string name="toolbar_title">Тренировки по фитнесу</string>
+    <string name="toolbar_subtitle">Mod. 13 № 1</string>
+    <string name="exit">Exit</string>
+    <string name="toast_exit">Приложение закрыто</string>
+</resources>

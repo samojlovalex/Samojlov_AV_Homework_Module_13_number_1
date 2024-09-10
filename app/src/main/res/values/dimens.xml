@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="marginTop">8dp</dimen>
+
+    <dimen name="textSiZeTV">20sp</dimen>
+    <dimen name="textSiZeTitleTV">30sp</dimen>
+    <dimen name="textSiZeBT">26sp</dimen>
+
+    <dimen name="imageSizeMain">300dp</dimen>
+
+</resources>
