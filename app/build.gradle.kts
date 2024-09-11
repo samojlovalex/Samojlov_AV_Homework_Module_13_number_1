@@ -39,8 +39,7 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.android.gif.drawble)
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.29")
     implementation(libs.gson)
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.lifecycle.livedata.ktx)
@@ -50,6 +49,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.support.annotations)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

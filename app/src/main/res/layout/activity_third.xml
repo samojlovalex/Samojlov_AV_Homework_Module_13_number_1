@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/padding"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:id="@+id/containerToolbarThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue"
+            app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Small"
+            app:subtitleTextColor="@color/white"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Small"
+            app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerToolbarThird">
+
+        <TextView
+            android:id="@+id/titleTextViewThirdTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottomThirdActivity"
+            android:gravity="center"
+            android:text="@string/titleTextViewThirdTV_Text"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/textSiZeTV"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights"></TextView>
+
+        <Button
+            android:id="@+id/startButtonThirdBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottomThirdActivity"
+            android:backgroundTint="@color/Transparent"
+            android:text="@string/startButtonThirdBT_Text"
+            android:textColor="@color/Blue_purple"
+            android:textSize="@dimen/textSiZeBT"></Button>
+
+        <TextView
+            android:id="@+id/exerciseTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottomThirdActivity"
+            android:text="@string/exerciseTV_Text"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/textSiZeTV"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/maxHeightThirdActivity">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/descriptionTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBottomThirdActivity"
+                    android:textColor="@color/Blue"
+                    android:textSize="@dimen/textSiZeDescriptionTV"></TextView>
+            </ScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottomThirdActivity"
+            android:text="@string/descriptionTV_Text"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/textSiZeTV"
+            android:textStyle="bold"></TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageVieWThirdIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></pl.droidsonroids.gif.GifImageView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

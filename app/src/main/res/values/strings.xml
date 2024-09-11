@@ -7,5 +7,18 @@
     <string name="toolbar_title">Тренировки по фитнесу</string>
     <string name="toolbar_subtitle">Mod. 13 № 1</string>
     <string name="exit">Exit</string>
+    <string name="back">Back</string>
     <string name="toast_exit">Приложение закрыто</string>
+
+    <string name="titleTextViewThirdTV_Text">Тренировка</string>
+    <string name="startButtonThirdBT_Text">Начало тренировки</string>
+    <string name="exerciseTV_Text">Упражнение</string>
+    <string name="descriptionTV_Text">Оставшееся время</string>
+    <string name="finishButtonThirdBT_Text">Продолжить дальше</string>
+    <string name="itemNameTV_Hint">Наименование тренировки</string>
+    <string name="indexItemTV_Hint">№</string>
+    <string name="titleTextViewThirdTV_Text_start"></string>
+    <string name="startButtonThirdBT_Text_start">Процесс тренировки</string>
+    <string name="timeTV_Text_start">Упражнение завершено</string>
+    <string name="finishButtonThirdBT_Text_finish">Вернуться к списку</string>
 </resources>
